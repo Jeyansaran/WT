@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WT Store</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0,user-scalable=no">
+        <link rel="shortcut icon" href="icon.png">
+        <link rel="stylesheet" type="text/css" href="main.css">      
+      
+    </head>
+    <body>
+     <nav class="naviBar">
+         <label class="logo" onclick="pageClicked('Products')"> WT Store</label>
+         <label class="menu" onclick="changeMenu()">Menu</label>
+         <ul id="menOpt" class="full">
+             <li onclick="pageClicked('Cart')">Cart</li>
+             <li id="logged-user"></li>
+             <li id="logged" onclick="pageClicked('Login')">Login</li>
+         </ul>
+     </nav>
+       <main id="root">
+       </main>
+    <script src="script.js"></script>
+    </body>
+    
+</html>

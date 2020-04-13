@@ -1,0 +1,189 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav
+{
+    background-color:rgba(0,0,0,0.9);
+    border:solid black 1px;
+    border-radius:5px;
+    top:0;
+    left:0;
+    height:50px;
+    width:100vw;
+}
+label.logo
+{
+    color:white;
+    font-size:25px;
+    line-height: 50px;
+    padding-left:10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.full
+{
+float:right;
+margin-right: 20px;
+}
+.full li
+{
+    display: inline;
+    line-height: 50px;
+    margin: 5px;
+}
+nav ul li {
+    color:white;
+    font-size: 0.9rem;
+    padding:5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+ .menu{
+     color:white;
+     margin-right: 20px;
+     line-height: 50px;
+     float:right;
+     display: none;
+}
+.products-panel
+{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.product-box
+{
+    width:10rem;
+    margin: 10px;
+    height:10rem;
+    border:solid black 1px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.2);
+}
+.product-name
+{
+    text-align: center;
+    line-height: 5rem;
+    vertical-align: middle;
+    height:5rem;
+}
+.product-price
+{
+    text-align: center;
+    line-height: 3rem;
+    vertical-align: middle;
+    height:3rem;
+}
+.product-cart
+{
+    margin: auto;
+    text-align: center;
+    width:6rem;
+    height:1.5rem;
+    line-height: 1.5rem;
+    vertical-align: middle;
+    font-weight: bold;
+    background-color: rgb(16, 152, 243);
+    color: white;
+    font-size: 0.9rem;
+    border:solid white 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.product-cart-options
+{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width:8rem;
+    height:1.5rem;
+    line-height: 1.5rem;
+    vertical-align: middle;
+    font-weight: bold;
+    background-color: rgb(16, 152, 243);
+    color: white;
+    font-size: 0.9rem;
+    border:solid white 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.login-form
+{
+    margin: auto;
+    margin-top: 1rem;
+    width:50vw;
+    border: 1px solid black;
+    text-align: center;
+}
+.login-heading
+{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.login-box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+.login-box input
+{
+  width: 20vw;
+}
+.login-options
+{
+  padding-right:1rem;
+}
+.login-button
+{
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    margin: 1rem;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#login-error,#signup-error
+{
+    color: red;
+}
+
+.cart-options
+{
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+    margin: auto;
+    text-align: center;
+    border:solid white 1px;
+    border-radius: 3px;
+    background-color: rgb(16, 152, 243);
+}
+
+.product-cart-add
+{
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    height:1.5rem;
+    line-height: 1.5rem;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.cart-msg
+{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
